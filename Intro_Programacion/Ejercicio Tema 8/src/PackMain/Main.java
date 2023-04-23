@@ -1,13 +1,20 @@
 package PackMain;
 
 public class Main {
-    public static void main (String[] args){
-        //Recorre el array con un for
-        int numeros[] = {10, 20, 30, 40, 50};
 
-        //for (int i = 0; i < numeros.length; i++) {
-        for (int i : numeros) { // forma simplificada
-            System.out.println(numeros[i]);
-        }
+    public static void main(String[] args) {
+        funcion1();
+    }
+    public static void funcion1(){
+        funcion2();
+    }
+    public static void funcion2(){
+        funcion3();
+    }
+    public static void funcion3(){
+        funcion4();
+    }
+    public static void funcion4(){
+        System.out.println("Prueba pila de llamadas");
     }
 }
